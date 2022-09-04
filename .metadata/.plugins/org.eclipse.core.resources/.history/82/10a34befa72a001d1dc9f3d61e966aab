@@ -1,0 +1,21 @@
+package logical.web.test;
+
+public class A {
+
+	public static void main(String[] args) {
+		
+		int j=0,m=1,n=15,l = 0;
+		
+		System.out.print("1");
+		for(int i=0;i<=n;i++)
+		{
+			l=j+m;
+			System.out.print(" "+l);
+			j=m;
+			m=l;
+		}
+		
+		
+		
+	}
+}

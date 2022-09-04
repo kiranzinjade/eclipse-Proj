@@ -1,0 +1,23 @@
+package logical.web.test;
+
+public class A {
+
+	public static void main(String[] args) {
+		
+		int n=10,m;
+		
+		int i=0,j=1;
+		System.out.print("1");
+		for(int c=0;c<=n;c++)
+		{
+			
+			m=i+j;
+			System.out.print(" "+m);
+			
+			i=j;
+			j=m;
+			
+		}
+		
+	}
+}
