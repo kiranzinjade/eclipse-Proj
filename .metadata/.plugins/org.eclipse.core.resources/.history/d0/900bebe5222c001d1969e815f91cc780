@@ -16,10 +16,7 @@ public class A {
 			{
 				count++;
 			}
-			if(count==2)
-			{
-				System.out.println("it is prime Number");
-			}
+			if()
 		}
 		
 		
